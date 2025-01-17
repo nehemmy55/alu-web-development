@@ -1,16 +1,16 @@
-body{background-color: #40E0D0
-height:auto
-display: flex
+body{background-color: #40E0D0;
+height:auto;
+display: flex;
  flex-direction: column}
 
 main{
-flex: auto
-display: flex
+flex: auto;
+display: flex;
 flex-direction: row}
 
 article{
-flex:2
+flex:2;
 overflow-y: auto}
 
-aside{flex: 1
+aside{flex: 1;
 overflow-y: auto}
