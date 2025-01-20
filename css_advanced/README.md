@@ -15,6 +15,16 @@ Making simple and effective web pages using CSS as the foundation of the web. Th
 3.**Advanced HTML**
 https://github.com/nehemmy55/alu-web-development/tree/master/html_advanced
 making advanced web pages using HTML as the foundation of the web. This project covers the advanced structure of a web. where
-use of header, main ,section
+use of header, main ,section and other tags are used.
 
 4.**advanced CSS**
+https://github.com/nehemmy55/alu-web-development/tree/master/css_advanced
+making advanced web pages using CSS as the foundation of the web. This project covers the advanced structure of a web. where use of background-color,position and other advanced css concepts are used.
+
+
+**tool used**
+.visual code studio
+.github 
+.sandbox
+.web browser
+...

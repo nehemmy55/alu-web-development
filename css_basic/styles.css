@@ -1,102 +1,22 @@
-body {
-    background-color: turquoise;
-    display: flex;
-    flex-direction: column; /* Arrange children vertically */
-    height: 100vh; /* Full viewport height */
+.redemer{
+    border: none;
+    height:600px;
+    width:650px;
+    border-radius: 10px;
 }
-
-main {
-    display: flex;
-    flex: auto;
-    flex-direction: row; /* Arrange children horizontally */
-}
-
-header, footer {
-    background-color: lightgray; /* Light background for better contrast */
+h1{
     text-align: center;
-    line-height: 2; /* Line height for spacing within header/footer */
-    align-items: center;
-    position: relative; /* To position the logo correctly */
+    color:rgb(8, 8, 74);
+    font-size: 45px;
 }
-
-h2 {
-    margin-top: 12px; /* Adjust margin top for spacing */
+h3{
+    color: rgba(41, 41, 170);
 }
-
-.logo {
-    font-size: 2em; /* Increase font size for logo */
-    position: absolute; /* Absolute positioning */
-    top: 10px; /* Adjust top position */
-    left: 10px; /* Adjust left position */
-    vertical-align: middle; /* Align logo vertically */
+h2{
+    color: rgb(41, 41, 170);
 }
-
-article {
-    flex: 2; 
-    overflow-y: auto; 
-    background-color: white; 
-}
-
-aside {
-    flex: 1; 
-    overflow-y: auto; 
-    background-color: lightgray; 
-}
-
-@media (max-width: 800px) {
-    body.works_on_smartphone {
-        display: block;
-    }
-    body.works_on_smartphone main {
-        display: block;
-    }
-    header .right {
-        float: none;
-    }
-}
-body {
-    background-color: turquoise;
-    display: flex;
-    flex-direction: column; /* Arrange children vertically */
-    height: 100vh; /* Full viewport height */
-}
-
-
-main {
-    display: flex;
-    flex: auto;
-    flex-direction: row;
-    height: auto;
-}
-
-
-header, footer {
-    flex: none;
-    text-align: center;
-    line-height: 2;
-align-items: center; }
-
-
-article {
-    flex: 2;
-    overflow-y: auto;
-    overflow-x: auto;
-    position: relative;
-    background-color: white;
-}
-
-
-aside {
-    flex: 1;
-    overflow-y: auto;
-    position: relative;
-    width: fit-content;
-}
-.logo{
-    position: absolute;
-    font-size: 50%;
-    height: 20%;
-    width:11%;
-    border-top-left-radius: 12PX;
-    border-left-width: 23%;
+   
+.navig{
+    font-size: 20px;
+    color: rgb(41, 41, 170);
 }
