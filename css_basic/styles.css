@@ -1,22 +1,22 @@
+
+body{
+    display: flex;
+
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+aside{
+flex: 1;overflow-y: auto
+}
+article{flex:1;overflow-y: auto;
+    flex-direction: auto;
+    position: bottom;
+}
 .redemer{
-    border: none;
-    height:600px;
-    width:650px;
-    border-radius: 10px;
+    height: 500px;
+    width: 650px;
+    
 }
-h1{
-    text-align: center;
-    color:rgb(8, 8, 74);
-    font-size: 45px;
-}
-h3{
-    color: rgba(41, 41, 170);
-}
-h2{
-    color: rgb(41, 41, 170);
-}
-   
-.navig{
-    font-size: 20px;
-    color: rgb(41, 41, 170);
-}
+.logo{color: blueviolet;background-color: rgb(251, 251, 251);}
